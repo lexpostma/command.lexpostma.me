@@ -1,0 +1,5 @@
+.DS_Store
+.env
+lexpostma.me.htpasswd
+.htaccess
+database_dumps/
