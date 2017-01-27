@@ -7,5 +7,4 @@
         "display"  => array("home","logout","login"),
         "new"      => array(       "logout","login")
     );
-
 ?>
