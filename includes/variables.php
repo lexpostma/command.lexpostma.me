@@ -1,11 +1,5 @@
 <?
-    if (strpos($_SERVER['HTTP_HOST'], 'lex.test') !== false) {
-        $pathToLP = '../../local-lexpostma.me';
-    }
-    else {
-        $pathToLP = '../../lexpostma.me';
-    }
-
+    $pathToLP = '../../lexpostma.me';
     $permissions = array(
         "admin"    => array("all"),
         "writer"   => array("home","logout","login","profile","blog","preview","edit","new","feedbuilder"),
